@@ -1,0 +1,57 @@
+# Ignore executable and make file
+RayVessel
+Makefile
+
+# Ignore build directories
+build/
+Build/
+
+# Ignore other directories
+platforms/
+
+# Ignore object files
+*.o
+*.so
+*.o
+*.obj
+*.a
+*.exe
+*.dll
+
+# Ignore Qt Creator files
+*.user
+*.pro.user
+*.pro.user.*
+
+# Ignore backup files
+*~
+
+# Ignore generated files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Ignore Qt Creator project files
+.qmake.stash
+.qmake.cache
+
+# Ignore other unwanted files
+*.log
+*.tmp
+*.bak
+*.autosave
+*.debug
+*.lock
+
+# Ignore other IDE-specific files (e.g., Visual Studio Code)
+.vscode/
+.idea/
+
+# Ignore proprietary files
+mefi3.adx
+MEFI3 Notes.docx
+MEFI-3.xml
+
+# Ignore script files
+deploy.sh
